@@ -19,7 +19,7 @@ print("4. divide")
 print("5. power")
 a = float(input("Enter number 1: "))
 b = float(input("Enter number 2: "))
-operation = int(input("Enter operation choice: "))
+operation = input("Enter operation choice: ")
 print("")
 
 if operation == 1 or "add":
@@ -33,4 +33,5 @@ elif operation == 4 or "divide":
 elif operation == 5 or "power":
     print(f"{a} ** {b} = {power(a, b)}")
 else:
+
     print("invalid choice")
