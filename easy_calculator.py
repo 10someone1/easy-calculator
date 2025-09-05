@@ -33,5 +33,5 @@ elif operation == 4 or "divide":
 elif operation == 5 or "power":
     print(f"{a} ** {b} = {power(a, b)}")
 else:
-
     print("invalid choice")
+
