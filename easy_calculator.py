@@ -19,18 +19,18 @@ print("4. divide")
 print("5. power")
 a = float(input("Enter number 1: "))
 b = float(input("Enter number 2: "))
-operation = input("Enter operation choice: ")
+operation = int(input("Enter operation choice: "))
 print("")
 
-if operation == "1" or "add":
+if operation == "1":
     print(f"{a} + {b} = {add(a, b)}")
-elif operation == "2" or "subtract":
+elif operation == "2":
     print(f"{a} - {b} = {subtract(a, b)}")
-elif operation == "3" or "multiply":
+elif operation == "3":
     print(f"{a} * {b} = {multiply(a, b)}")
-elif operation == "4" or "divide":
+elif operation == "4":
     print(f"{a} / {b} = {divide(a, b)}")
-elif operation == "5" or "power":
+elif operation == "5":
     print(f"{a} ** {b} = {power(a, b)}")
 else:
     print("invalid choice")
