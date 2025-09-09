@@ -22,15 +22,15 @@ b = float(input("Enter number 2: "))
 operation = int(input("Enter operation choice: "))
 print("")
 
-if operation == "1":
+if operation == 1:
     print(f"{a} + {b} = {add(a, b)}")
-elif operation == "2":
+elif operation == 2:
     print(f"{a} - {b} = {subtract(a, b)}")
-elif operation == "3":
+elif operation == 3:
     print(f"{a} * {b} = {multiply(a, b)}")
-elif operation == "4":
+elif operation == 4:
     print(f"{a} / {b} = {divide(a, b)}")
-elif operation == "5":
+elif operation == 5:
     print(f"{a} ** {b} = {power(a, b)}")
 else:
     print("invalid choice")
